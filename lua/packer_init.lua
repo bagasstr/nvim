@@ -31,12 +31,13 @@ end
 
 -- Install Plugins
 return packer.startup(function(use)
+
 -- File explorer
   use 'kyazdani42/nvim-tree.lua'
   use 'neovim/nvim-lspconfig'
   use {
     'hrsh7th/nvim-cmp',
-    requires = {
+    require = {
       'L3MON4D3/LuaSnip',
       'hrsh7th/cmp-nvim-lsp',
       'hrsh7th/cmp-path',
