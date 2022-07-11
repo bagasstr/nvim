@@ -1,0 +1,4 @@
+*.txt
+wget-log
+plugin/
+nvim.backup/
