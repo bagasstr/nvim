@@ -14,8 +14,8 @@ map('', '<down>', '<nop>')
 map('', '<left>', '<nop>')
 map('', '<right>', '<nop>')
 
--- map Esc to kk
-map('i', 'kk', '<Esc>')
+-- map Esc to jj
+map('i', 'jj', '<Esc>')
 
 -- Clear search highlighting with <leader> and c
 map('n', '<leader>c', ':nohl<CR>')
