@@ -1,4 +1,4 @@
 *.txt
-nvim/wget-log.txt
-nvim/plugin/
-nvim/nvim.backup/
+wget-log.txt
+plugin/
+nvim.backup/
